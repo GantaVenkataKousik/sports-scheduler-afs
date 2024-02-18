@@ -1,0 +1,119 @@
+.jointeam-content {
+    display: grid;
+    grid-template-columns: 80% 20%;
+}
+
+.create-activities h1 {
+    margin: 0 0 20px;
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+
+.join-create-activity-container .pickSlot h1 {
+    margin-top: 2rem;
+}
+
+.join-create-activity-container .pickSlot input {
+    outline: none;
+    border: 2px solid rgb(124, 117, 117);
+    width: 100%;
+    font-size: 1.2rem;
+    font-family: cursive;
+    border-radius: 2px;
+}
+
+.jointeam-activity-container {
+    width: 100%;
+    height: 10vh;
+}
+
+.jointeam-create-activity-container {
+    text-align: center;
+    display: grid;
+    grid-template-rows: 70% 30%;
+    gap: 20px;
+}
+
+.jointeam-create-activity-container .pickSlot {
+    margin-top: 15vh;
+}
+
+.jointeam-right-content {
+    background: #f6f7fb;
+    margin: 15px 15px 15px 0;
+    padding: 10px;
+    border-radius: 15px;
+    display: grid;
+    grid-template-rows: 5% 95%;
+
+}
+
+
+.jointeam-left-content .teams {
+    display: grid;
+    grid-template-columns: 50% 50%;
+
+}
+
+.jointeam-content {
+    padding: 1rem;
+}
+
+.jointeam-left-content .ta {
+    border-right: 2px solid black;
+}
+
+hr {
+    width: 2px;
+    transform: rotate(90deg);
+    transform: translateX(50%);
+    left: 50%;
+    z-index: 10000;
+    color: black;
+}
+
+.jointeam-left-content .teamA {
+    border-right: 2px solid black;
+}
+
+
+.jointeam-left-content .player img {
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    margin: 0.4rem;
+}
+
+.jointeam-left-content .player {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.jointeam-left-content .tA h2 {
+    text-align: center;
+}
+
+.jointeam-left-content .players {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.jointeam-left-content .teams {
+    margin-top: 2rem;
+    padding: 1rem;
+}
+
+.jointeam-left-content .teams h2 {
+    margin-bottom: 1.5rem;
+}
+
+.jointeam-left-content .teams .teamB {
+    margin-left: 1rem;
+}
+
+.jointeam-left-content .btn {
+    border: 2px solid #020202;
+    margin-top: 1.;
+}

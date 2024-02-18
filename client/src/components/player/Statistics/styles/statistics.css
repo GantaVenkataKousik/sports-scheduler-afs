@@ -1,0 +1,232 @@
+.create-content {
+    display: grid;
+    grid-template-columns: 75% 25%;
+}
+
+.create-activities h1 {
+    margin: 0 0 20px;
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+
+.create-left-content {
+    display: grid;
+    grid-template-rows: 5% 95%;
+    background: #f6f7fb;
+    margin: 15px;
+    padding: 10px 20px;
+    border-radius: 15px;
+}
+
+.create-left-content h1 {
+    font-size: 1.6rem;
+}
+
+.join-create-activity-container .pickSlot h1 {
+    margin-top: 2rem;
+}
+
+.join-create-activity-container .pickSlot input {
+    outline: none;
+    border: 2px solid rgb(124, 117, 117);
+    width: 100%;
+    font-size: 1rem;
+    font-family: cursive;
+    border-radius: 2px;
+}
+
+.statistics-join-activity-container {
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    grid-template-rows: auto;
+    gap: 1rem;
+    color: #484d53;
+}
+
+.join-create-activity-container {
+    display: grid;
+    grid-template-rows: 50% 50%;
+}
+
+.statistics-create-right-content {
+    display: grid;
+    grid-template-columns: repeat(2, 100%);
+    background: #f6f7fb;
+    margin: 15px 15px 15px 0;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+
+.join-day-and-activity {
+    width: 12vw;
+    height: auto;
+    display: grid;
+    align-items: center;
+    border-radius: 14px;
+    margin-bottom: 1rem;
+    padding: 0.9rem;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 3px;
+}
+
+.join-day-and-activity h1 {
+
+    color: #484d53;
+}
+
+.join-day-and-activity h2 {
+    margin-bottom: 0.6rem;
+    color: #484d53;
+    font-size: 1.2rem;
+}
+
+.create .activity-one {
+    background-color: rgb(124, 136, 224, 0.5);
+    background-image: linear-gradient(240deg,
+            rgb(124, 136, 224) 0%,
+            #c3f4fc 100%);
+}
+
+.create .join-participants {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 0.3rem;
+}
+
+.create .join-participants img {
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 3px;
+    margin: 2px;
+}
+
+
+.join-day-and-activity .day-joinBtn {
+    display: flex;
+    width: 10vw;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 0.5vw;
+    margin-bottom: -0.5vw;
+    color: #484d53;
+}
+
+.join-day-and-activity .day-joinBtn .join-day {
+    font-size: 0.9rem;
+    display: flex;
+    align-items: center;
+    gap: 3px;
+
+}
+
+.join-day-and-activity .day-joinBtn .joinBtn {
+    border-radius: 50%;
+    height: 2vh;
+    width: 2vw;
+}
+
+
+.statistics-join-calendar {
+    margin-top: 5vh;
+    display: grid;
+    grid-template-columns: repeat(3, 12vw);
+    grid-template-rows: auto;
+    gap: 20px;
+}
+
+.join-day-and-activity .day-joinBtn .join-icon i {
+    cursor: pointer;
+
+}
+
+.join-day-and-activity .day-joinBtn .join-icon i:hover {
+    transform: scale(1.2);
+}
+
+.simple-bar-chart {
+    --line-count: 10;
+    --line-color: currentcolor;
+    --line-opacity: 0.25;
+    --item-gap: 2%;
+    --item-default-color: #060606;
+
+    height: 13rem;
+    display: grid;
+    grid-auto-flow: column;
+    gap: var(--item-gap);
+    align-items: end;
+    padding-inline: var(--item-gap);
+    --padding-block: 1.5rem;
+    /*space for labels*/
+    padding-block: var(--padding-block);
+    position: relative;
+    isolation: isolate;
+}
+
+.simple-bar-chart::after {
+    content: "";
+    position: absolute;
+    inset: var(--padding-block) 0;
+    z-index: -1;
+    --line-width: 1px;
+    --line-spacing: calc(100% / var(--line-count));
+    background-image: repeating-linear-gradient(to top, transparent 0 calc(var(--line-spacing) - var(--line-width)), var(--line-color) 0 var(--line-spacing));
+    box-shadow: 0 var(--line-width) 0 var(--line-color);
+    opacity: var(--line-opacity);
+}
+
+.simple-bar-chart>.item {
+    height: calc(1% * var(--val));
+    background-color: var(--clr, var(--item-default-color));
+    position: relative;
+    animation: item-height 1s ease forwards;
+}
+
+@keyframes item-height {
+    from {
+        height: 0;
+    }
+}
+
+.simple-bar-chart>.item>* {
+    position: absolute;
+    text-align: center;
+}
+
+.simple-bar-chart>.item>.label {
+    inset: 100% 0 auto 0;
+}
+
+.simple-bar-chart>.item>.value {
+    inset: auto 0 100% 0;
+}
+
+.create-left-content .graphs {
+    margin-top: 1.2rem;
+}
+
+.create-left-content .graphs h1 {
+    font-size: 1.2rem;
+}
+
+.create-left-content .graphs .pieGraph {
+    margin-top: 6vh;
+}
+
+
+.create-left-content .pie {
+    margin-top: 2vh;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    background: linear-gradient(-21deg, #5cc93a 50%, transparent 50%), linear-gradient(to right, #5cc93a 50%, hsl(358, 78%, 55%) 50%);
+}
+
+.create-left-content .html {
+    margin-left: 8vw;
+}
+
+.create-left-content .css {
+    margin-left: 1vw;
+}

@@ -1,0 +1,231 @@
+.create-content {
+    display: grid;
+    grid-template-columns: 75% 25%;
+}
+
+.create-activities h1 {
+    margin: 0 0 20px;
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+
+
+.create-activity-container {
+    display: grid;
+    width: 100%;
+}
+
+.create-activity-container .image-container {
+    height: 20vh;
+}
+
+.create-right-content {
+    display: grid;
+    width: 90%;
+    grid-template-rows: repeat(auto-fill, minmax(150px, auto));
+    background: #f6f7fb;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.create-left-bottom {
+    display: grid;
+    grid-template-columns: 80% 20%;
+    gap: 40px;
+}
+
+.create .weekly-schedule {
+    display: flex;
+    flex-direction: column;
+}
+
+.create .weekly-schedule h1 {
+    margin-top: 20px;
+    font-size: 1.7rem;
+    font-weight: 700;
+}
+
+.create .calendar {
+    margin-top: 10px;
+}
+
+.create-day-and-activity {
+    display: grid;
+    grid-template-columns: 15% 55% 15% 15%;
+    align-items: center;
+    border-radius: 14px;
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    color: #484d53;
+    font-size: 1.7rem;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 3px;
+}
+
+.create .activity-one {
+    background-color: rgb(124, 136, 224, 0.5);
+    background-image: linear-gradient(240deg,
+            rgb(124, 136, 224) 0%,
+            #c3f4fc 100%);
+}
+
+.create .activity-two {
+    background-color: #aee2a4a1;
+    background-image: linear-gradient(240deg, #e5a243ab 0%, #f7f7aa 90%);
+}
+
+.create .activity-three {
+    background-color: #ecfcc376;
+    background-image: linear-gradient(240deg, #97e7d1 0%, #ecfcc3 100%);
+}
+
+.create .activity-four {
+    background-color: #e6a7c3b5;
+    background-image: linear-gradient(240deg, #fc8ebe 0%, #fce5c3 100%);
+}
+
+.create .day {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.create .day h1 {
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+
+.create .day p {
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+.create-acitivity .activity {
+    margin-left: 0.4rem;
+}
+
+.create .activity {
+    border-left: 3px solid #474a4e;
+}
+
+.create .participants {
+    display: flex;
+    margin-left: 1rem;
+}
+
+.create .participants img {
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    z-index: calc(2 * var(--i));
+    margin-left: -10px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 3px;
+}
+
+.create .activity h2 {
+    margin-left: 10px;
+    font-size: 1.25rem;
+    font-weight: 600;
+    border-radius: 12px;
+}
+
+.create-left-content .create-new-team {
+    display: grid;
+}
+
+.create-left-content form {
+    border: 2px solid rgb(125, 119, 119);
+    border-radius: 20px;
+}
+
+.create-left-content {
+    display: grid;
+    grid-template-rows: 50% 50%;
+    background: #f6f7fb;
+    margin: 15px;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.create-left-content .created-teams {
+    margin-top: 45vh;
+}
+
+.create-left-content .create-new-team form {
+    background-color: rgba(150, 122, 219, 255);
+
+    background-size: cover;
+    height: auto;
+    width: 25vw;
+    margin: 0 auto;
+    margin-top: 1.5rem;
+}
+
+.create-new-team .section {
+
+    padding: 1.5rem;
+    position: relative;
+    background-color: transparent;
+    border-radius: 20px;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.create-new-team h1 {
+    font-size: 1.8rem;
+}
+
+.create-new-team .inputbox {
+    position: relative;
+    width: 20vw;
+    border-bottom: 2px solid #fff;
+    font-weight: bold;
+    margin: 1rem 0;
+}
+
+
+
+.create-new-team .inputbox input {
+    width: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1.4rem;
+    color: #fff;
+    margin-top: 0.4rem;
+}
+
+.create-new-team .inputbox select {
+    width: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    margin-top: 0.4rem;
+    color: #fff;
+    font-size: 1.3rem;
+}
+
+.create-new-team .inputbox select option {
+    color: black;
+}
+
+.create-new-team .inputbox label {
+    text-align: left;
+    color: white;
+    font-size: 1.4rem;
+    margin-bottom: 1.2rem;
+}
+
+.create-new-team button {
+    width: 60%;
+    height: 40px;
+    border-radius: 40px;
+    background-color: #fff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 1.3rem;
+}

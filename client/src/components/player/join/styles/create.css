@@ -1,0 +1,154 @@
+.schedule-create-content {
+    display: grid;
+    grid-template-columns: 100%;
+}
+
+.create-activities h1 {
+    margin: 0 0 20px;
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+
+.create-left-content {
+    display: grid;
+    grid-template-rows: 5% 95%;
+    background: #f6f7fb;
+    margin: 15px;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.join-create-activity-container .pickSlot h1 {
+    margin-top: 2rem;
+}
+
+.join-create-activity-container .pickSlot input {
+    outline: none;
+    border: 2px solid rgb(124, 117, 117);
+    width: 100%;
+    font-size: 1rem;
+    font-family: cursive;
+    border-radius: 2px;
+}
+
+.join-activity-container {
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    grid-template-rows: repeat(3, 125px);
+    gap: 1rem;
+}
+
+.join-create-activity-container {
+    display: grid;
+    grid-template-rows: 50% 50%;
+    width: 100%;
+}
+
+.join-create-right-content {
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    background: #f6f7fb;
+    margin: 15px 15px 15px 0;
+    padding: 10px 0;
+    border-radius: 15px;
+}
+
+
+.join-day-and-activity {
+    width: 12vw;
+    height: auto;
+    display: grid;
+    align-items: center;
+    border-radius: 14px;
+    margin-bottom: 1rem;
+    padding: 0.9rem;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 3px;
+}
+
+.join-day-and-activity h2 {
+    margin-bottom: 0.6rem;
+    color: rgb(27, 28, 29);
+    font-size: 1.2rem;
+}
+
+.create .activity-one {
+    background-color: rgb(124, 136, 224, 0.5);
+    background-image: linear-gradient(240deg,
+            rgb(124, 136, 224) 0%,
+            #c3f4fc 100%);
+}
+
+.create .join-participants {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 0.3rem;
+}
+
+.create .join-participants img {
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 3px;
+    margin: 2px;
+}
+
+
+.join-day-and-activity .day-joinBtn {
+    display: flex;
+    width: 10vw;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 0.5vw;
+    margin-bottom: -0.5vw;
+}
+
+.join-day-and-activity .day-joinBtn .join-day {
+    font-size: 0.9rem;
+    display: flex;
+    align-items: center;
+    gap: 3px;
+
+}
+
+.join-day-and-activity .day-joinBtn .joinBtn {
+    border-radius: 50%;
+    height: 2vh;
+    width: 2vw;
+}
+
+
+.join-calendar {
+    margin-top: 5vh;
+    display: grid;
+    grid-template-columns: repeat(3, 12vw);
+    grid-template-rows: auto;
+    gap: 20px;
+}
+
+.join-day-and-activity .day-joinBtn .join-icon i {
+    cursor: pointer;
+
+}
+
+.join-day-and-activity .day-joinBtn .join-icon i:hover {
+    transform: scale(1.2);
+}
+
+.join-create-activity-container .searchTeam input {
+    width: 200%;
+    font-size: 1.2rem;
+    margin-top: -2vh;
+    margin-bottom: 4vh;
+    outline: none;
+    font-family: cursive;
+    padding: 0 0.3rem;
+}
+
+.join-create-activity-container .searchTeam h1 {
+    width: 200%;
+    font-size: 1.5rem;
+}
+
+.join-create-activity-container {
+    padding: 10px;
+}

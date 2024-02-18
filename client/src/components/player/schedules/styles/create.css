@@ -1,0 +1,229 @@
+.schedule-create-content {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.create-activities h1 {
+    margin: 0 0 20px;
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+
+.create-left-content {
+    display: grid;
+    grid-template-rows: 5% 95%;
+    background: #f6f7fb;
+    margin: 15px;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+
+.join-activity-container {
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(2, 100%);
+    grid-template-rows: repeat(3, 125px);
+    gap: 1rem;
+}
+
+.join-create-activity-container {
+    display: grid;
+    grid-template-rows: 50% 50%;
+}
+
+.create-right-content {
+    display: grid;
+    grid-template-rows: repeat(2, 50%);
+    background: #f6f7fb;
+    margin: 15px 15px 15px 0;
+    padding: 10px 0;
+    border-radius: 15px;
+}
+
+
+.join-day-and-activity {
+    width: 12vw;
+    height: auto;
+    display: grid;
+    align-items: center;
+    border-radius: 14px;
+    margin-bottom: 1rem;
+    padding: 0.9rem;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 3px;
+}
+
+.join-day-and-activity h1 {
+
+    color: #484d53;
+}
+
+.join-day-and-activity h2 {
+    margin-bottom: 0.6rem;
+    color: #484d53;
+    font-size: 1.2rem;
+}
+
+.create .activity-one {
+    background-color: rgb(124, 136, 224, 0.5);
+    background-image: linear-gradient(240deg,
+            rgb(124, 136, 224) 0%,
+            #c3f4fc 100%);
+}
+
+.create .join-participants {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 0.3rem;
+}
+
+.create .join-participants img {
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 3px;
+    margin: 2px;
+}
+
+
+.schedule-join-day-and-activity .day-joinBtn {
+    display: flex;
+    width: 10vw;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 0.5vw;
+    margin-bottom: -0.5vw;
+    color: #484d53;
+}
+
+.schedule-join-day-and-activity .day-joinBtn .join-day {
+    font-size: 0.9rem;
+    display: flex;
+    align-items: center;
+    gap: 3px;
+
+}
+
+.schedule-join-day-and-activity .day-joinBtn .joinBtn {
+    border-radius: 50%;
+    height: 2vh;
+    width: 2vw;
+}
+
+.schedule-join-left-bottom {
+    padding: 10px;
+}
+
+.schedule-join-calendar {
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(3, 12vw);
+    grid-template-rows: auto;
+    gap: 20px;
+}
+
+.join-day-and-activity .day-joinBtn .join-icon i {
+    cursor: pointer;
+
+}
+
+.join-day-and-activity .day-joinBtn .join-icon i:hover {
+    transform: scale(1.2);
+}
+
+.schedule-create-left-content .teamsjoined {
+    margin: 1.2rem;
+}
+
+
+
+.schedule-join-day-and-activity {
+    display: grid;
+    grid-template-columns: 15% 40% 20% 20%;
+    border-radius: 14px;
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    color: #484d53;
+    font-size: 1.7rem;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 3px;
+}
+
+.schedule-join-day-and-activity .activity-one {
+    background-color: rgb(124, 136, 224, 0.5);
+    background-image: linear-gradient(240deg,
+            rgb(124, 136, 224) 0%,
+            #c3f4fc 100%);
+}
+
+.schedule-join-day-and-activity .activity-two {
+    background-color: #aee2a4a1;
+    background-image: linear-gradient(240deg, #e5a243ab 0%, #f7f7aa 90%);
+}
+
+.schedule-join-day-and-activity .activity-three {
+    background-color: #ecfcc376;
+    background-image: linear-gradient(240deg, #97e7d1 0%, #ecfcc3 100%);
+}
+
+.schedule-join-day-and-activity .activity-four {
+    background-color: #e6a7c3b5;
+    background-image: linear-gradient(240deg, #fc8ebe 0%, #fce5c3 100%);
+}
+
+.schedule-join-day-and-activity .day {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.schedule-join-day-and-activity .day h1 {
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+
+.schedule-join-day-and-activity .day p {
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+.schedule-create-activity .activity {
+    margin-left: 0.4rem;
+}
+
+.create .schedule-participants {
+    display: flex;
+    margin-left: 1rem;
+}
+
+.schedule-participants img {
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    z-index: calc(2 * var(--i));
+    margin-left: -10px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 3px;
+}
+
+.schedule-join-day-and-activity h2 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    border-radius: 12px;
+}
+
+.schedule-join-create-right-content {
+    margin: 2rem 0;
+    margin-top: 1.5rem;
+    margin-left: 5vw;
+}
+
+.schedule-calendar {
+    width: 90%;
+    margin-top: 5vh;
+    border-left: 2px solid black;
+    padding-left: 4vw;
+}
+
+.schedule-join-create-right-content .heading {
+    margin-left: 4vw;
+}
