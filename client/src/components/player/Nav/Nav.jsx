@@ -7,7 +7,7 @@ function Nav() {
     const location = useLocation();
 
     const navItems = [
-        { iconClass: "fa-house", text: "Home", path: "/player/dashboard" },
+        { iconClass: "fa-house", text: "Home", path: "/" },
         { iconClass: "fa-plus", text: "Create", path: "/player/create" },
         { iconClass: "fa-right-to-bracket", text: "Join", path: "/player/join" },
         { iconClass: "fa-door-open", text: "JoinTeam", path: "/player/join/jointeam" },
@@ -24,7 +24,7 @@ function Nav() {
                         <NavItem
                             iconClass={item.iconClass}
                             text={item.text}
-                            status={location.pathname === item.path ? "active" : ""}
+                            status={location.pathname === item.path || (location.pathname === "/") ? "active" : ""}
                             to={item.path} 
                         />
                     </li>

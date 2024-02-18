@@ -16,6 +16,7 @@ function App() {
     <Router>
       <Routes>
         <Route path="/" element={<Dashboard />} />
+        <Route path="/player/dashboard" element={<Dashboard />} />
         <Route path="/player/create" element={<Create />} />
         <Route path="/player/create/createsport" element={<CreateSport />} />
         <Route path="/player/join" element={<Join />} />
