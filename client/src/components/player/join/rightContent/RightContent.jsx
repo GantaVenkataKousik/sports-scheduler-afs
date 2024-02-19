@@ -47,10 +47,6 @@ function RightContent() {
                             </div>
                         </div>
                     </div>
-                    <div className='pickSlot'>
-                        <h1>Pick a Slot</h1>
-                        <input type='date' ></input>
-                    </div>
                 </div>
             </div>
         </div>
