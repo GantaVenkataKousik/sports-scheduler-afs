@@ -117,3 +117,7 @@ hr {
     border: 2px solid #020202;
     margin-top: 1.;
 }
+
+.jointeam-create-activity-container .pickSlot {
+    margin-top: -5vh;
+}

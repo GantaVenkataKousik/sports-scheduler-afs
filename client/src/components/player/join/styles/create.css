@@ -153,9 +153,13 @@
 }
 
 .join-create-activity-container {
-    padding: 10px;
+    padding: 5px;
 }
 
 .join-create-activity-container .pickSport {
-    margin-top: -20vh;
+    margin-top: -23vh;
+}
+
+.join-create-activity-container .pickSlot {
+    margin-top: -2vh;
 }
