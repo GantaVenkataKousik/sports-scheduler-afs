@@ -156,4 +156,6 @@
     padding: 10px;
 }
 
-.join-create-activity-container .pickSport {}
+.join-create-activity-container .pickSport {
+    margin-top: -10vh;
+}
