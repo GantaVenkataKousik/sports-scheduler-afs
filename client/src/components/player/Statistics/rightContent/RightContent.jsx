@@ -5,7 +5,7 @@ function RightContent() {
     return (
         <div className="statistics-create-right-content">
             <div className='create-activities'>
-                <div className='join-create-activity-container'>
+                <div className='schedule-create-activity-container'>
                     <div className='pickSport'>
                         <h1>Sports you Participated</h1>
                         <div className='joinSports'>

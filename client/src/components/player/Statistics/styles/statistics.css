@@ -43,7 +43,7 @@
     color: #484d53;
 }
 
-.join-create-activity-container {
+.schedule-create-activity-container {
     display: grid;
     grid-template-rows: 50% 50%;
 }

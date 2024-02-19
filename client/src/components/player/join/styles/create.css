@@ -39,7 +39,8 @@
     display: grid;
     grid-template-columns: repeat(2, 50%);
     grid-template-rows: repeat(3, 125px);
-    gap: 1rem;
+    gap: 0.5rem;
+    margin-top: -2vh;
 }
 
 .join-create-activity-container {
@@ -161,5 +162,5 @@
 }
 
 .join-create-activity-container .pickSlot {
-    margin-top: -2vh;
+    margin-top: -4vh;
 }
