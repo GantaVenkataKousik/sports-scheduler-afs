@@ -1,3 +1,6 @@
+import React from "react";
+import { Link } from 'react-router-dom';
+
 function ScheduledActivity({ day, dayOfWeek, activityName, activity, participants }) {
     return (
         <div className={`day-and-activity activity-${activity}`}>
@@ -13,7 +16,7 @@ function ScheduledActivity({ day, dayOfWeek, activityName, activity, participant
                     ))}
                 </div>
             </div>
-            <button className="btn">Join</button>
+            <Link to="/player/join" className="btn">Join</Link>
         </div>
     );
 }

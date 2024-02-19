@@ -8,11 +8,12 @@ import Join from './components/player/join/Join';
 import JoinTeam from './components/player/join-team/JoinTeam';
 import Statistics from './components/player/Statistics/Statistics';
 import Schedules from './components/player/schedules/Schedules';
+import Footer from './components/player/Footer/Footer';
 import './App.css'
 
 function App() {
   return (
-
+    <>
     <Router>
       <Routes>
         <Route path="/" exact element={<Dashboard />} />
@@ -25,7 +26,10 @@ function App() {
         <Route path="/player/schedules" element={<Schedules />} />
         <Route path="/admin/dashboard" element={<AdminDashboard />} />
       </Routes>
-    </Router>
+      </Router>
+      <Footer />
+    </>
+
   );
 }
 

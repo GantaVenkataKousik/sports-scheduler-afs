@@ -12,7 +12,6 @@ function Dashboard() {
                 <Nav />
                 <Content />
             </main>
-            <Footer />
         </div>
     )
 }

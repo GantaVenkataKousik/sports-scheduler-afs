@@ -1,0 +1,11 @@
+footer {
+    z-index: 100;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 1rem;
+}
+
+footer span {
+    font-size: 1.8rem;
+}
