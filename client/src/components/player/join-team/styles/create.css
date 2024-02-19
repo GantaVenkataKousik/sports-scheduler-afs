@@ -118,6 +118,10 @@ hr {
     margin-top: 1.;
 }
 
+.jointeam-create-activity-container .pickSlot h1 {
+    margin-top: 2vh;
+}
+
 .jointeam-create-activity-container .pickSlot {
-    margin-top: -1vh;
+    margin-top: 2vh;
 }
