@@ -32,6 +32,3 @@ To get started with the Sports Scheduler, follow these steps:
 
 Contributions are welcome! If you have any suggestions, feature requests, or bug reports, please feel free to open an issue or create a pull request. Let's make the Sports Scheduler even better together!
 
-## License 📝
-
-This project is licensed under the [MIT License](LICENSE).
